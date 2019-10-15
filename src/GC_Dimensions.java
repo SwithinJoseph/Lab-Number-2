@@ -14,7 +14,6 @@ public class GC_Dimensions {
 		double roomVolume;
 		String cont;
 		
-		
 		do
 		{
 		System.out.println("Please enter the length of the room in feet: ");
@@ -32,7 +31,7 @@ public class GC_Dimensions {
 		roomArea = roomLength * roomWidth;
 		System.out.println("The area of the room is " + roomArea);
 		
-		roomPerimeter = (roomLength * 2.0) + (roomWidth * 2.0);
+		roomPerimeter = 2*(roomLength + roomWidth);
 		System.out.println("The perimeter of the room is " + roomPerimeter);
 		
 		roomVolume = roomLength * roomWidth * roomHeight;
